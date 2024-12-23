@@ -6,7 +6,8 @@ const numberValue = document.getElementById("numberValue");
 let count = 0;
 
 btnReset.onclick = function(){
-    numberValue.textContent = 0;
+    count = 0;
+    numberValue.textContent = count;
 }
 btnIncrement.onclick = function(){
     count++;
